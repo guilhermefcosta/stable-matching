@@ -44,7 +44,7 @@ Basta alimentar o programa com um arquivo de texto formatado nas especificaçõe
 Exemplo:
 
 ```
-bin/programa < caso_de_teste.txt
+bin/programa < casos_de_teste/caso_de_teste01.txt
 ```
 
 &nbsp;
