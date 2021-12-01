@@ -39,7 +39,6 @@ Exemplo:
 
 ```
 bin/programa < caso_de_teste.txt
-
 ```
 
 
@@ -105,7 +104,9 @@ Cria um map (LojaMap) tendo como chave os ids dos clientes e como valor -1
 // para sabermos pelo id da loja, os clientes alocados para ela
 Cria uma lista de listas ClientesMap
 
-Criamos um vetor (ListasDeFilasDePrioridadeDasLojas) com m filas de prioridade das lojas(as filas são idênticas) // para guardar o estado da iteração das lojas no gale-shapley
+Criamos um vetor (ListasDeFilasDePrioridadeDasLojas) com m filas de prioridade
+das lojas(as filas são idênticas) 
+// para guardar o estado da iteração das lojas no gale-shapley
 
 Criamos uma fila (LojasNaoVisitadas) com todos os ids das lojas
 
