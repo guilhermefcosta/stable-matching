@@ -156,7 +156,9 @@ Mas a loop com maior iteração(que é o que é considerado) é:
 
 foi usado para criar a listas de listas de preferência dos clientes e depois ordená-las
 
+
 ### Explicação:
+
 
 Iteramos n vezes:
 
