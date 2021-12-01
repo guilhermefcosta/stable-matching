@@ -1,4 +1,4 @@
-
+<pre>
 ## Introdução
 
 
@@ -168,3 +168,5 @@ Ordenamos a lista de preferência do cliente com um sort que é O( mlog(m) )
 
 Assim, temos:
 - O(n * (m + mlog(m))) = O(nm * (1 + logm))
+
+</pre>
