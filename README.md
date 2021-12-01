@@ -1,6 +1,7 @@
 
 ## Introdução
 
+
 O principal problema a ser resolvido nesse programa é o casamento estável entre lojas e
 clientes, de modo que eu tenha uma solução mais favorável para as lojas(poderia
 ser o inverso também).
@@ -12,7 +13,9 @@ esse cliente. E as preferências do cliente são relacionadas a distância do cl
 para uma loja Li, sendo i o conjunto de todas as lojas. Em caso de empates no ticket
 ou na distância, a loja ou usuário que ganham preferência são os com id mais baixo.
 
+
 ## Estruturas de dados
+
 
 Foram utilizadas diversas estruturas para resolver o problema em questão, como:
 
@@ -31,7 +34,9 @@ Também foi utilizado diversas estruturas de dados da stl, como:
 
 Além de combinações desses tipos de estruturas...
 
-## como executar?
+
+## Como executar?
+
 
 Basta alimentar o programa com um arquivo de texto formatado nas especificações propostas pelo pdf .
 
@@ -42,8 +47,8 @@ bin/programa < caso_de_teste.txt
 ```
 
 
+## Algoritmos Usados
 
-## Algoritmos
 
 Foram utilizadas muitas funções da stl durante todo o processo de implementação
 da solução do problema, como:
@@ -138,7 +143,9 @@ enquanto houver lojas não visitadas:
       continue
 ```
 
+
 ## Complexidade Assintótica
+
 
 Observando as iterações como importantes na complexidade assintótica, temos
 vários loops O(n) e O(m), sendo n o número de clientes e m o número de lojas.
