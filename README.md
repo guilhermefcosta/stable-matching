@@ -1,6 +1,6 @@
-<pre>
-## Introdução
 
+## Introdução
+&nbsp;
 
 O principal problema a ser resolvido nesse programa é o casamento estável entre lojas e
 clientes, de modo que eu tenha uma solução mais favorável para as lojas(poderia
@@ -169,4 +169,3 @@ Ordenamos a lista de preferência do cliente com um sort que é O( mlog(m) )
 Assim, temos:
 - O(n * (m + mlog(m))) = O(nm * (1 + logm))
 
-</pre>
