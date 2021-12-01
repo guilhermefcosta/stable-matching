@@ -1,5 +1,6 @@
 
 ## Introdução
+&nbsp;
 
 O principal problema a ser resolvido nesse programa é o casamento estável entre lojas e
 clientes, de modo que eu tenha uma solução mais favorável para as lojas(poderia
