@@ -15,6 +15,7 @@ ou na distância, a loja ou usuário que ganham preferência são os com id mais
 &nbsp;
 
 ## Estruturas de dados
+&nbsp;
 
 Foram utilizadas diversas estruturas para resolver o problema em questão, como:
 
@@ -32,6 +33,7 @@ Também foi utilizado diversas estruturas de dados da stl, como:
 - pair (struct com dois elementos)
 
 Além de combinações desses tipos de estruturas...
+
 &nbsp;
 
 ## Como executar?
