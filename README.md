@@ -1,6 +1,5 @@
 
 ## Introdução
-&nbsp;
 
 O principal problema a ser resolvido nesse programa é o casamento estável entre lojas e
 clientes, de modo que eu tenha uma solução mais favorável para as lojas(poderia
@@ -12,10 +11,9 @@ cliente, o estado onde o cliente reside e o método de pagamento mais utilizado 
 esse cliente. E as preferências do cliente são relacionadas a distância do cliente
 para uma loja Li, sendo i o conjunto de todas as lojas. Em caso de empates no ticket
 ou na distância, a loja ou usuário que ganham preferência são os com id mais baixo.
-
+&nbsp;
 
 ## Estruturas de dados
-
 
 Foram utilizadas diversas estruturas para resolver o problema em questão, como:
 
@@ -33,7 +31,7 @@ Também foi utilizado diversas estruturas de dados da stl, como:
 - pair (struct com dois elementos)
 
 Além de combinações desses tipos de estruturas...
-
+&nbsp;
 
 ## Como executar?
 
@@ -45,10 +43,9 @@ Exemplo:
 ```
 bin/programa < caso_de_teste.txt
 ```
-
+&nbsp;
 
 ## Algoritmos Usados
-
 
 Foram utilizadas muitas funções da stl durante todo o processo de implementação
 da solução do problema, como:
@@ -58,6 +55,7 @@ da solução do problema, como:
 Criei funções de comparação separadas para cada execução do
 problema a fins de testes, mas poderia ser usado o stable_sort() que
 sairia direto a ordenação em caso de enpate (os ids dos dados de entrada continuariam na ordem correta).
+&nbsp;
 
 ## Descrição sucinta do TP em pseudo-código junto com a modelagem do problema:
 
@@ -142,10 +140,9 @@ enquanto houver lojas não visitadas:
     se ele prefere a loja associada:
       continue
 ```
-
+&nbsp;
 
 ## Complexidade Assintótica
-
 
 Observando as iterações como importantes na complexidade assintótica, temos
 vários loops O(n) e O(m), sendo n o número de clientes e m o número de lojas.
@@ -155,7 +152,7 @@ Mas a loop com maior iteração(que é o que é considerado) é:
 - O(n* (m + mlog(m)))
 
 foi usado para criar a listas de listas de preferência dos clientes e depois ordená-las
-
+&nbsp;
 
 ### Explicação:
 
@@ -169,3 +166,4 @@ Ordenamos a lista de preferência do cliente com um sort que é O( mlog(m) )
 Assim, temos:
 - O(n * (m + mlog(m))) = O(nm * (1 + logm))
 
+&nbsp;
